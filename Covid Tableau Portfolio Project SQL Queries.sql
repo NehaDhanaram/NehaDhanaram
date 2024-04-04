@@ -36,7 +36,6 @@ order by PercentPopulationInfected desc
 
 -- 4. - Percent POpulation Infected
 
-
 Select Location, Population,date, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
 From PortfolioProject..CovidDeaths
 Group by Location, Population, date
