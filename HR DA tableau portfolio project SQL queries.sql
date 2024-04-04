@@ -1,4 +1,4 @@
---Data validation queries for the HR Analytics Tableau dashboard
+--Data validation queries for HR Analytics Tableau dashboard
 
 select * from [HR Data Analytics]..['HR data$']
 
