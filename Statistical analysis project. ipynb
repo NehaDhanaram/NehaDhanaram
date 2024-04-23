@@ -1,0 +1,8 @@
+import pandas as pd
+# Replace 'your_excel_file.xlsx' with the path to your Excel file
+excel_file = 'sales data.xlsx'
+# Load Excel data into a pandas DataFrame
+df = pd.read_excel(excel_file)
+# Now, you can work with the data in the 'df' DataFrame
+# For example, you can print the first few rows of the DataFrame
+df.head()
