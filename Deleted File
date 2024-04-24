@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Analysis</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<h1>Movie Analysis</h1>
+</body>
+</html>
